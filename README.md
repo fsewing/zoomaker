@@ -98,6 +98,10 @@ resources:
       rename_to: moebius.bin
 
   extensions:
+    - name: sd-webui-controlnet
+      src: https://github.com/Mikubill/sd-webui-controlnet.git
+      type: git
+      install_to: *extensions
     - name: sd-webui-tunnels
       src: https://github.com/Bing-su/sd-webui-tunnels.git
       type: git
